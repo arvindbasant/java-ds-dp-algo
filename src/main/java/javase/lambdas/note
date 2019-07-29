@@ -1,0 +1,28 @@
+
+
+Lambdas makes instances of anonymous class easier to read and write.
+
+what is the type of lambda exp?
+    Functional Interface ex:
+        Runnable, FileFilter, Comparator
+        Having only abstract method.
+        Methods from object class doesn't count. ex: equals()
+        Can be annotated with @FunctionalInterface(compile time check)
+
+can lambda assigned to a variable?
+    Yes
+    can be taken as method parameter and can be return by a method.
+    this makes it more powerful.
+
+is lambda exp is object?
+    Instance of anonymous class is created by new keyword which involves overhead.
+
+    JVM doesn't create object of lambda.
+
+    exactly not an object, but it is registered as a object in JVM.
+    It is a new kind of object, known as object without identity.
+
+
+Functional Interfaces
+java.util.functional
+total 43 interfaces
